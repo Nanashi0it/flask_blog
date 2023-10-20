@@ -46,7 +46,7 @@ Reference: [Flask Tutorials - Corey Schafer](https://www.youtube.com/playlist?li
 - Werkzeug: 2.3.7
 - WTForms: 3.1.0
 
-## Installation ⬇️
+## Installation and Run
 
 Download source code from Github: `https://github.com/Nanashi0it/flaskblog.git`
 
