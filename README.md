@@ -6,15 +6,20 @@ Reference: [Flask Tutorials - Corey Schafer](https://www.youtube.com/playlist?li
 ## Features
 
 ### MAIN
+
 - Home page.
 - About page.
+
 ### USER
+
 - User page.
 - User register, login, logout.
 - User reset password.
 - Update username, email, and profile image.
 - View all user posts.
+
 ### POST
+
 - Create a new post.
 - Update post.
 - Delete post.
@@ -48,16 +53,19 @@ Reference: [Flask Tutorials - Corey Schafer](https://www.youtube.com/playlist?li
 
 ## Installation and Run
 
-Download source code from Github: `https://github.com/Nanashi0it/flaskblog.git`
+Download source code from Github: `https://github.com/Nanashi0it/flask_blog.git`
 
 **NOTE BEFORE RUNNING PROJECT:**
+
 - Before running the application you need to create some environment variables:
+
     + `SQLALCHEMY_DATABASE_URI` for `SQLALCHEMY_DATABASE_URI`: Name of the database (Eg: site.db).
-    + `SECRET_KEY` for `SECRET_KEY`: secret key hashes the password to save in the database.
-    + `EMAIL_USER` for `MAIL_USERNAME`: Email address that is used to send password reset email.
-    + `EMAIL_PASSWORD` for `MAIL_PASSWORD`: Password of the email you used above. This password should be [App Password](https://support.google.com/mail/answer/185833?hl=vi) if you user Gmail.
+    + `SECRET_KEY` for `SECRET_KEY`: secret key helps hash the password.
+    + `EMAIL_USER` for `MAIL_USERNAME`: Email address used to send password reset email.
+    + `EMAIL_PASSWORD` for `MAIL_PASSWORD`: Password of the email you used above. This password should be [App Password](https://support.google.com/mail/answer/185833?hl=vi) if you use Gmail.
+    
 - If you use the application's virtual environment (env), you do not need to install additional packages in the requirements.txt file, but you need to activate it before running the application. More detail in [here](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/)
 
 Go to directory: `cd flaskBlog`
 
-Run in command line: `python app.py` or `py app.py`
+Run in the command line: `python app.py` or `py app.py`
