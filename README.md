@@ -50,6 +50,14 @@ Reference: [Flask Tutorials - Corey Schafer](https://www.youtube.com/playlist?li
 
 Download source code from Github: `https://github.com/Nanashi0it/flaskblog.git`
 
+**NOTE BEFORE RUNNING PROJECT:**
+- Before running the application you need to create some environment variables:
+    + `SQLALCHEMY_DATABASE_URI` for `SQLALCHEMY_DATABASE_URI`: Name of the database (Eg: site.db).
+    + `SECRET_KEY` for `SECRET_KEY`: secret key hashes the password to save in the database.
+    + `EMAIL_USER` for `MAIL_USERNAME`: Email address that is used to send password reset email.
+    + `EMAIL_PASSWORD` for `MAIL_PASSWORD`: Password of the email you used above. This password should be [App Password](https://support.google.com/mail/answer/185833?hl=vi) if you user Gmail.
+- If you use the application's virtual environment (env), you do not need to install additional packages in the requirements.txt file, but you need to activate it before running the application. More detail in [here](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/)
+
 Go to directory: `cd flaskBlog`
 
 Run in command line: `python app.py` or `py app.py`
